@@ -5,7 +5,8 @@
     "license": "MIT",
     "url": "http://jakub.kotrla.net/putty/portable_putty_076_0.18.0_all_in_one.zip",
     "hash": "670fc79ac87bebae1ef35c1d8f9293d36de0276d78ec54043197a7f59fcb8b56",
-    "bin": [
+    "extract_dir": "$matchPuttyvermajor.$matchPuttyverminor",
+	"bin": [
         "putty.exe",
         "puttygen.exe",
         "pscp.exe",
@@ -32,7 +33,7 @@
         "sshhostkeys"
     ],
     "checkver": {
-        "re": "this modified PuTTY is now based on PuTTY (?<puttyvermajor>[\\d]+)\\.(?<puttyverminor>[\\d]+) \\(version (?<version>[\\d\\.]+)\\)",
+        "re": "based on PuTTY (?<puttyvermajor>[\\d]+)\\.(?<puttyverminor>[\\d]+).*\\(version (?<version>[\\d\\.]+)\\)",
         "reverse": true
     },
     "autoupdate": {
