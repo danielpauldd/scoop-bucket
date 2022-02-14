@@ -5,8 +5,8 @@
     "license": "MIT",
     "url": "http://jakub.kotrla.net/putty/portable_putty_076_0.18.0_all_in_one.zip",
     "hash": "670fc79ac87bebae1ef35c1d8f9293d36de0276d78ec54043197a7f59fcb8b56",
-    "extract_dir": "$matchPuttyvermajor.$matchPuttyverminor",
-	"bin": [
+    "extract_dir": "0.76",
+    "bin": [
         "putty.exe",
         "puttygen.exe",
         "pscp.exe",
@@ -37,6 +37,7 @@
         "reverse": true
     },
     "autoupdate": {
-        "url": "http://jakub.kotrla.net/putty/portable_putty_$matchPuttyvermajor$matchPuttyverminor_$version_all_in_one.zip"
+        "url": "http://jakub.kotrla.net/putty/portable_putty_$matchPuttyvermajor$matchPuttyverminor_$version_all_in_one.zip",
+        "extract_dir": "$matchPuttyvermajor.$matchPuttyverminor"
     }
 }
