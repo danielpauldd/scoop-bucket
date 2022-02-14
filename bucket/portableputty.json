@@ -7,12 +7,11 @@
     "hash": "670fc79ac87bebae1ef35c1d8f9293d36de0276d78ec54043197a7f59fcb8b56",
     "extract_dir": "0.76",
     "bin": [
-        "putty.exe",
-        "puttygen.exe",
-        "pscp.exe",
         "pageant.exe",
+        "plink.exe",
+        "pscp.exe",
         "psftp.exe",
-        "plink.exe"
+        "putty.exe"
     ],
     "shortcuts": [
         [
@@ -22,10 +21,6 @@
         [
             "pageant.exe",
             "Pageant"
-        ],
-        [
-            "puttygen.exe",
-            "PuTTYgen"
         ]
     ],
     "persist": [
