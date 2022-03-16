@@ -7,10 +7,7 @@
     "hash": "31f274179d64f1855612d82cb7d257e6f43c2ddd5af9ea5e7ab1469a47c7f031",
     "extract_dir": "sslyze-5.0.2-exe",
     "bin": "sslyze.exe",
-    "checkver": {
-        "url": "https://github.com/nabla-c0d3/sslyze/releases/latest",
-        "re": "sslyze-(?<version>[\\d\\.]+)"
-    },
+    "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/nabla-c0d3/sslyze/releases/download/$version/sslyze-$version-exe.zip",
         "extract_dir": "sslyze-$version-exe"
