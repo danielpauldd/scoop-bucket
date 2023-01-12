@@ -1,11 +1,11 @@
 {
-    "version": "0.19.0",
+    "version": "0.20.0",
     "description": "A free implementation of SSH and Telnet, along with an xterm terminal emulator. This version stores session configuration in files.",
     "homepage": "http://jakub.kotrla.net/putty/",
     "license": "MIT",
-    "url": "http://jakub.kotrla.net/putty/portable_putty_077_0.19.0_all_in_one.zip",
-    "hash": "244a62268040a3b1c6b1ff245b0257529047c99aea5b7b9ec4a62f06a8554666",
-    "extract_dir": "0.77",
+    "url": "http://jakub.kotrla.net/putty/portable_putty_078_0.20.0_all_in_one.zip",
+    "hash": "d4de9635038dfcd24d7226f5264eb809e4eeb5edbe4fc75115a211061c02d635",
+    "extract_dir": "0.78",
     "bin": [
         "pageant.exe",
         "plink.exe",
