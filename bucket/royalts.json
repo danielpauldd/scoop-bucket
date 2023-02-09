@@ -1,12 +1,12 @@
 {
-    "version": "6.01.51214.0",
+    "version": "6.01.60209.0",
     "description": "Comprehensive Remote Management Solution",
     "homepage": "https://www.royalapps.com/ts/win",
     "license": "Shareware",
     "architecture": {
         "64bit": {
-            "url": "https://download.royalapps.com/RoyalTS/RoyalTS_6.01.51214.0.zip",
-            "hash": "04b55f86fff0117797933df1bb5e07bbf50b491ebd38f8de1bcb9072b12cd4f9"
+            "url": "https://download.royalapps.com/RoyalTS/RoyalTS_6.01.60209.0.zip",
+            "hash": "ed7beb87971c66bd354e05c392930abae8a7f2e909a3953ff8e6920021617aa6"
         }
     },
     "post_install": [
