@@ -12,3 +12,5 @@ What software is includes in this bucket?
 
 - [Portable PuTTY](http://jakub.kotrla.net/putty/) free SSH and Telnet Client (this version from Jakub Kotrla stores the session information in files, not in the registry.)
 - [sslyze](https://github.com/nabla-c0d3/sslyze) is a fast and powerful SSL/TLS scanning tool and Python library.
+- [hfs](https://www.rejetto.com/hfs/) 2.x is a free, mini webserver to share files over http protocol.
+- [hfs3](https://github.com/rejetto/hfs/) is the new, completely rewritten successor of the hfs2.x mini Webserver to share files over http protocol.
