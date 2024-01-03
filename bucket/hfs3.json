@@ -8,9 +8,9 @@
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\config.yaml\")) { New-Item \"$dir\\config.yaml\" | Out-Null }"
     ],
-    "bin": [ 
+    "bin": [
         [ "hfs.exe", "hfs3", "--cwd $dir"],
-        [ "hfs.exe", "hfs", "--cwd $dir"] 
+        [ "hfs.exe", "hfs", "--cwd $dir"]
     ],
     "shortcuts": [
         [ "hfs.exe", "HFS 3", "--cwd $dir" ]
