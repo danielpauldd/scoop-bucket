@@ -1,6 +1,6 @@
 # DPA Scoop Bucket
 
-![example event parameter](https://github.com/danielpauldd/scoop-bucket/actions/workflows/ci.yml/badge.svg)
+![Bucket Tests](https://github.com/danielpauldd/scoop-bucket/actions/workflows/ci.yml/badge.svg) ![AutoUpdate](https://github.com/danielpauldd/scoop-bucket/actions/workflows/autoupdate.yml/badge.svg) 
 
 Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. These are manifests for software I did not found in the main or extras buckets.
 
