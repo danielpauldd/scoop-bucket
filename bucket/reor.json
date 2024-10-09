@@ -3,7 +3,7 @@
     "description": "Private & local AI personal knowledge management app.",
     "license": "AGPL-3.0",
     "version": "0.2.19",
-    "url": "https://github.com/reorproject/reor/releases/download/v0.2.19/Reor_0.2.19.exe",
+    "url": "https://github.com/reorproject/reor/releases/download/v0.2.19/Reor_0.2.19.exe#/dl.7z",
     "hash": "a15f48a8a8cf679dd1cb8d9e7b8b0a0b046e4c91066f0e2c8747e03452bb537d",
     "shortcuts": [
         [
@@ -11,24 +11,29 @@
             "Reor"
         ]
     ],
-    "installer": {
-        "script": [
-            "if (!(Test-Path \"$persist_dir\") -and (Test-Path \"$env:AppData\\Reor\")) {",
-            "    info 'Copy user data from %APPDATA% to persist app folder...'",
-            "    ensure \"$persist_dir\" | Out-Null",
-            "    Copy-Item \"$env:AppData\\Reor\\*\" -Destination \"$persist_dir\" -Force -Recurse",
-            "    Rename-Item \"$env:APPDATA\\Reor\" \"Reor.old\"  -Force",
-            "} elseif (!(Test-Path \"$persist_dir\")) {",
-            "    ensure \"$persist_dir\" | Out-Null",
-            "}",
-            "New-Item $env:AppData\\Reor -ItemType Junction -Target \"$persist_dir\" | Out-Null"
-        ]
+	"suggest": {
+        "Ollama": "main/ollama"
     },
+	"installer": {
+		"script": [
+            "Expand-7zipArchive \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\" -Removal",
+            "Remove-Item \"$dir\\`$*\" -Recurse",
+			"if (!(Test-Path \"$persist_dir\") -and (Test-Path \"$env:AppData\\Reor\")) {",
+			"    info 'Copy user data from %APPDATA% to persist app folder...'",
+			"    ensure \"$persist_dir\" | Out-Null",
+			"    Copy-Item \"$env:AppData\\Reor\\*\" -Destination \"$persist_dir\" -Force -Recurse",
+			"    Rename-Item \"$env:APPDATA\\Reor\" \"Reor.old\"  -Force",
+			"} elseif (!(Test-Path \"$persist_dir\")) {",
+			"    ensure \"$persist_dir\" | Out-Null",
+			"}",
+			"New-Item $env:AppData\\Reor -ItemType Junction -Target \"$persist_dir\" | Out-Null"
+		]
+	},
     "uninstaller": {
         "script": "Remove-Item $env:APPDATA\\Reor -Force -Recurse"
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/reorproject/reor/releases/download/v$version/Reor_$version.exe"
+        "url": "https://github.com/reorproject/reor/releases/download/v$version/Reor_$version.exe#/dl.7z"
     }
 }
