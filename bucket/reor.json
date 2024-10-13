@@ -2,9 +2,9 @@
     "homepage": "https://github.com/reorproject/reor/",
     "description": "Private & local AI personal knowledge management app.",
     "license": "AGPL-3.0",
-    "version": "0.2.21",
-    "url": "https://github.com/reorproject/reor/releases/download/v0.2.21/Reor_0.2.21.exe#/dl.7z",
-    "hash": "88a529467f511238fabf4df489d061c8cf51dc8f9036c4e7585af6e27b9f1332",
+    "version": "0.2.23",
+    "url": "https://github.com/reorproject/reor/releases/download/v0.2.23/Reor_0.2.23.exe#/dl.7z",
+    "hash": "ef891141afd92740c4019eb389fe5d4978781f095d7cef5edc2a316c2a707b99",
     "shortcuts": [
         [
             "reor.exe",
