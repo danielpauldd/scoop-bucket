@@ -7,6 +7,6 @@
     "bin": "ssh-audit.exe",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/jtesta/ssh-audit/releases/download/v$version/ssh-audit.exe",
+        "url": "https://github.com/jtesta/ssh-audit/releases/download/v$version/ssh-audit.exe"
     }
 }
