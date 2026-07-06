@@ -1,10 +1,10 @@
 {
-    "version": "6.2.0",
+    "version": "6.3.1",
     "description": "SSLyze is a fast and powerful SSL/TLS scanning tool and Python library.",
     "homepage": "https://github.com/nabla-c0d3/sslyze",
     "license": "GNU Affero General Public License (AGPL)",
-    "url": "https://github.com/nabla-c0d3/sslyze/releases/download/6.2.0/sslyze-6.2.0-exe.zip",
-    "hash": "da58b1a36b426269db7924cad657109d80c7580218f33c0613b45cdf3fa3e638",
+    "url": "https://github.com/nabla-c0d3/sslyze/releases/download/6.3.1/sslyze-6.3.1-exe.zip",
+    "hash": "495e40da44e4f4edd30ae7bdeee40fd43be1fcc18fbbf4577fd8e61c61d5f486",
     "bin": "sslyze.exe",
     "installer": {
         "script": [
